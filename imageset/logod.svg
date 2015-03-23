@@ -20,12 +20,10 @@
 	 <style type="text/css">
       <![CDATA[
 		@font-face {
-			font-family: 215000E;
-			src: url("215000E.eot") /* EOT file for IE */
-		}
-		@font-face {
-			font-family: 215000E;
-			src: url("215000E.ttf") /* TTF file for CSS3 browsers */
+			font-family: '215000E';
+			src: url(/forum/styles/proBootTN/imageset/215000E.eot) /* EOT file for IE */;
+			src: url(/forum/styles/proBootTN/imageset/215000E.eot?) format("eot"),
+url(/forum/styles/proBootTN/imageset/215000E.ttf) format("truetype");
 		}
       ]]>
    </style>

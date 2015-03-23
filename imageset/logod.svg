@@ -21,9 +21,13 @@
       <![CDATA[
 		@font-face {
 			font-family: '215000E';
-			src: url(/forum/styles/proBootTN/imageset/215000E.eot) /* EOT file for IE */;
-			src: url(/forum/styles/proBootTN/imageset/215000E.eot?) format("eot"),
-url(/forum/styles/proBootTN/imageset/215000E.ttf) format("truetype");
+			src: url('215000E.eot') /* EOT file for IE */;
+			    src: url('215000E.eot?#iefix') format('embedded-opentype'),
+         url('215000E.woff2') format('woff2'),
+         url('215000E.woff') format('woff'),
+         url('215000E.ttf') format('truetype'),
+         url('215000E.svg#215000eregular') format('svg');
+
 		}
       ]]>
    </style>
